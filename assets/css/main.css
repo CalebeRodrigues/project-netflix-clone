@@ -1,7 +1,81 @@
-body {
-    background-color: black;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h2 {
-    color: red;
+:root {
+    --primary-color: #141414;
+    --color-red: #E50914;
+    --color-cinza: rgb(153, 152, 152);
+    --color-white: white;
+}
+
+/* Elementos base */
+
+body {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+header .logo {
+    color: var(--color-red);
+    font-family: 'Arial Black', Times;
+    font-size: 2.5rem;
+    padding: 0.0625rem 0.9375rem;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--color-white);
+    margin-right: 0.625rem;
+    font-size: 1.0625rem;
+    padding: 2px;
+
+}
+
+header nav a:hover {
+    transition: 0.3s;
+    color: var(--color-cinza);
+}
+
+
+/*    Filme principal  */
+
+.filme-principal {
+    font-size: 1rem;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.377) 100%),
+        url('/assets/img/capa/batman-begins.jpg');
+    background-size: cover;
+
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 20px;
+}
+
+.filme-principal .container {
+    margin: 10px;
+    width: 50%;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 30px;
+}
+
+.titulo {
+    font-size: 2.8125rem;
 }

@@ -11,6 +11,12 @@
     --color-white: white;
 }
 
+/* Gerais */
+
+.mr-5 {
+    margin-right: 0.3125rem;
+}
+
 /* Elementos base */
 
 body {
@@ -23,7 +29,7 @@ header .container {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
+    padding: 5px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
@@ -31,7 +37,14 @@ header .logo {
     color: var(--color-red);
     font-family: 'Arial Black', Times;
     font-size: 2.5rem;
-    padding: 0.0625rem 0.9375rem;
+    padding: 0.0625rem 2.8125rem;
+
+    transition: 1s;
+}
+
+header .logo:hover {
+    color: #ff000d;
+    text-shadow: rgb(0, 0, 0) 0.2em 0.2em 0.2em;
 }
 
 header nav a {
@@ -40,42 +53,78 @@ header nav a {
     margin-right: 0.625rem;
     font-size: 1.0625rem;
     padding: 2px;
-
+   
+    transition: 0.5s;
 }
 
 header nav a:hover {
-    transition: 0.3s;
     color: var(--color-cinza);
 }
-
 
 /*    Filme principal  */
 
 .filme-principal {
     font-size: 1rem;
-    background: 
-        linear-gradient(rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.377) 100%),
-        url('/assets/img/capa/batman-begins.jpg');
     background-size: cover;
 
-    height: 520px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 
-    padding: 20px;
+    padding: 40px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .filme-principal .container {
-    margin: 10px;
-    width: 50%;
+    margin: 5px;
+    width: 60%;
 }
 
 .filme-principal .descricao {
+    font-size: 1.25rem;
     margin-bottom: 30px;
 }
 
-.titulo {
-    font-size: 2.8125rem;
+.filme-principal .titulo {
+    display: inline-block;
+    margin-top: 8%;
+    font-size: 3.4375rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+    transition: 0.6s;
+}
+
+.filme-principal .titulo:hover {
+    color: var(--color-red);
+    text-shadow: black 0.2em 0.2em 0.2em;
+}
+
+.botao {
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+
+    margin-right: 15px;
+    font-size: 0.8125rem;
+
+    background-color: rgba(0, 0, 0, 0.50);
+    color: white;
+    padding: 0.9375rem 1.875rem;
+    cursor: pointer;
+
+    transition: 0.6s;
+}
+
+.botao:hover {
+    border: 1px solid var(--color-red);
+    background-color: rgba(0, 0, 0, 0.87);
+    color: var(--color-red);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 6px 12px rgba(0, 0, 0, 0.23);
+}
+
+.botao i {
+    font-size: 1rem;
 }

@@ -5,10 +5,12 @@
     }
 
     header .container nav {
-        margin-top: 1%;
+        margin-top: 3%;
+        padding-bottom: 2%;
     }
 
     .filme-principal {
+        color: rgba(209, 209, 209, 0.664);
         font-size: 0.2rem;
         height: 520px;
     }
@@ -55,6 +57,10 @@
 
 
 @media screen and (max-width: 380px) {
+
+    .filme-principal {
+        color: rgba(209, 209, 209, 0.795);
+    }
 
     .filme-principal .titulo {
         font-size: 1.625rem;

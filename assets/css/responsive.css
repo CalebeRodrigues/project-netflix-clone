@@ -1,0 +1,72 @@
+@media screen and (max-width: 768px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .container nav {
+        margin-top: 1%;
+    }
+
+    .filme-principal {
+        font-size: 0.2rem;
+        height: 520px;
+    }
+
+    .filme-principal .container {
+        margin: 5px;
+        width: 80%;
+    }
+
+    .filme-principal .titulo {
+        font-size: 40px;
+    }
+
+    .filme-principal .descricao {
+        font-size: 20px;
+    }
+    
+    .botao {
+        width: 100%;
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .filme-principal {
+        font-size: 0.1rem;
+        background-position: center;
+        padding-left: 20px;
+    }
+
+    .filme-principal .container {
+        margin: 5px;
+        width: 95%;
+    }
+
+    .filme-principal .titulo {
+        font-size: 32px;
+    }
+
+    .filme-principal .descricao {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+
+    .filme-principal .titulo {
+        font-size: 26px;
+    }
+
+    .filme-principal .descricao {
+        font-size: 17px;
+        text-justify: newspaper;
+    }
+
+    .filme-principal .container {
+        margin: 5px;
+        width: 100%;
+    }
+}

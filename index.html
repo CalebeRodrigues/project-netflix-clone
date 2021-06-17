@@ -7,6 +7,9 @@
 
     <link rel="stylesheet" href="./assets/css/main.css">
 
+    <link rel="stylesheet" href="./assets/css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl/owl.theme.default.min.css">
+
     <title>My Netflix</title>
 </head>
 <body>
@@ -14,7 +17,7 @@
         <div class="container">
             <h2 class="logo">Netflix</h2>
             <nav>
-                <a href="#">Inicio</a>
+                <a href="./">Inicio</a>
                 <a href="#">Séries</a>
                 <a href="#">Filmes</a>
                 <a href="#">Documentários</a>
@@ -25,16 +28,8 @@
     <main>
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">BATMAN BEGINS</h3>
-                <p class="descricao">
-                    Marcado pelo assassinato de seus pais quando ainda era criança, 
-                    o milionário Bruce Wayne (Christian Bale) decide viajar pelo mundo 
-                    em busca de encontrar meios que lhe permitam combater a injustiça 
-                    e provocar medo em seus adversários. Após retornar a Gotham City, 
-                    sua cidade-natal, ele idealiza seu alter-ego: Batman, um justiceiro 
-                    mascarado que usa força, inteligência e um arsenal tecnológico para 
-                    combater o crime.
-                </p>
+                <h3 class="titulo"></h3>
+                <p class="descricao"></p>
 
                 <div class="botoes">
                     <button role="button" class="botao">
@@ -50,12 +45,25 @@
 
         </div>
     </main>
+    
+    <br>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme card-filmes">
+
+        </div>
+    </div>
 
     <script src="https://kit.fontawesome.com/62441e2311.js" crossorigin="anonymous"></script>
+    
+    <script src="./assets/js/owl/jquery.min.js"></script>
+    <script src="./assets/js/owl/owl.carousel.min.js"></script>
+    <script src="./assets/js/owl/main.js"></script>
+    <script src="./assets/js/owl/setup.js"></script>
 
-    <script src="./assets/js/listaFilmes.js"></script>
-    <script src="./assets/js/script-img.js"></script>
-    <script src="./assets/js/filme.js"></script>
+    <script src="./assets/js/filmes-js/listaFilmes.js"></script>
+    <script src="./assets/js/filmes-js/script-img.js"></script>
+    <script src="./assets/js/filmes-js/filme.js"></script>
 
 </body>
 </html>

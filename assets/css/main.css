@@ -7,7 +7,7 @@
 :root {
     --primary-color: #141414;
     --color-red: #E50914;
-    --color-cinza: rgb(153, 152, 152);
+    --color-cinza: rgb(95, 95, 95);
     --color-white: white;
 }
 
@@ -15,6 +15,10 @@
 
 .mr-5 {
     margin-right: 0.3125rem;
+}
+
+m-20 {
+    margin: 20px;
 }
 
 /* Elementos base */
@@ -127,4 +131,17 @@ header nav a:hover {
 
 .botao i {
     font-size: 1rem;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.box-filme:hover {
+    box-shadow: 0 3px 6px rgba(255, 255, 255, 0.26), 0 3px 6px rgba(255, 255, 255, 0.26);
 }

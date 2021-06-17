@@ -5,7 +5,7 @@
 
         setInterval(() => {
             executeFilmePrincipal();
-        }, 50000);    
+        }, 40000);    
     }, 1);
 
     function executeFilmePrincipal () {
@@ -22,7 +22,7 @@
 
         function setBackground() {
             const num = rand(1, filme.img + 1);
-            principal.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.527) ), ` + 
+            principal.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.671) ), ` + 
                                 `url('/assets/img/capa/${filme.caminho}/${num}.jpg')`;
         }
     }

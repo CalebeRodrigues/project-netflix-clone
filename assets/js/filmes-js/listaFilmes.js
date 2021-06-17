@@ -89,3 +89,26 @@ movies.push({
     caminho: 'homem-de-ferro',
     img: 4
 })
+
+movies.push({
+    titulo: 'Homem-Aranha: Longe de Casa',
+    descricao: 
+        "Peter Parker está em uma viagem de duas semanas pela Europa, ao lado de seus amigos de " +
+        "colégio, quando é surpreendido pela visita de Nick Fury. Convocado para mais uma missão " +
+        "heroica, ele precisa enfrentar vários vilões que surgem em cidades-símbolo do continente, " +
+        "como Londres, Paris e Veneza, e também a aparição do enigmático Mysterio.",
+    caminho: 'homem-aranha-longe-de-casa',
+    img: 5
+})
+
+movies.push({
+    titulo: 'Coringa',
+    descricao:
+    "Arthur Fleck trabalha como palhaço para uma agência de talentos e, toda semana, " +
+    "precisa comparecer a uma agente social, devido aos seus conhecidos problemas mentais. " +
+    "Após ser demitido, Fleck reage mal à gozação de três homens em pleno metrô e os mata. " +
+    "Os assassinatos iniciam um movimento popular contra a elite de Gotham City, da qual Thomas " +
+    "Wayne é seu maior representante.",
+    caminho: 'coringa',
+    img: 4
+})

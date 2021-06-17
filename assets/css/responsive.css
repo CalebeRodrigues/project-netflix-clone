@@ -19,11 +19,11 @@
     }
 
     .filme-principal .titulo {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .filme-principal .descricao {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     
     .botao {
@@ -45,11 +45,11 @@
     }
 
     .filme-principal .titulo {
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .filme-principal .descricao {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 }
 
@@ -57,11 +57,11 @@
 @media screen and (max-width: 380px) {
 
     .filme-principal .titulo {
-        font-size: 26px;
+        font-size: 1.625rem;
     }
 
     .filme-principal .descricao {
-        font-size: 17px;
+        font-size: 1.0625rem;
         text-justify: newspaper;
     }
 
